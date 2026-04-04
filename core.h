@@ -5275,7 +5275,6 @@ struct rtw89_hal {
 	bool no_eht;
 
 	atomic_t roc_chanctx_idx;
-	u8 roc_link_index;
 
 	DECLARE_BITMAP(changes, NUM_OF_RTW89_CHANCTX_CHANGES);
 	DECLARE_BITMAP(entity_map, NUM_OF_RTW89_CHANCTX);
