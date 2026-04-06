@@ -8,6 +8,7 @@
 #include "usb.h"
 
 static const struct rtw89_usb_info rtw8922a_usb_info = {
+	.rx_agg_alignment = 16,
 	.bulkout_id = {
 		[RTW89_DMA_ACH0] = 3,
 		[RTW89_DMA_ACH2] = 5,
